@@ -5,9 +5,12 @@ ML project (ELEVEN Strategy) predicting short-term wait times in amusement parks
 This project predicts waiting times in amusement parks over the next 2 hours using the dataset ELEVEN Strategy provided us with. Developed as part of a hackathon, the project demonstrates data preprocessing, feature engineering, model selection, and evaluation. The project won the hackathon for its predictive performance and modeling approach.
 
 ## Data
-- Dataset: [brief description, e.g., 10,000 records of ride wait times and park features]  
-- Features: ride type, time of day, day of week, visitor flow, weather conditions  
-- Preprocessing: handled missing values, normalized numerical features, encoded categorical variables
+- Dataset: Eleven Strategy original datasets of weather data and waiting times (for the training, the validation adn the test) and dataset added by ourselves to better predict waiting times
+- Features: 
+  - Eleven Dataset : 
+    - Datetime, Name of the attraction, Capacity, Downtime, Current wait time, Time to events, __Wait time in 2 hours__, Weather conditions : Temperature, Dew point, Felt Temperature, Pressure, Humidity, Wind Speed, Rain, Snow, Clouds 
+  - Our dataset : Holidays, Covid
+- Preprocessing: Encoded categorical variables (One Hot Encoding), Added features from our datasets, Added Cyclical time features
 
 ## Approach
 - Models used: Random Forest, Gradient Boosting, XGBoost  
