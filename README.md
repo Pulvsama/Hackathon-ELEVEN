@@ -19,13 +19,10 @@ This project predicts waiting times in amusement parks over the next 2 hours usi
 - Preprocessing: Encoded categorical variables (One Hot Encoding), Added features from our datasets, Added Cyclical time features
 
 ## Approach
-- Models used: Random Forest, Gradient Boosting, XGBoost  
-- Feature selection and engineering applied to improve model performance  
-- Hyperparameter tuning with cross-validation
+- Models used: Random Forest, CatBoost, XGBoost  
+- Data preprocessing and lagged features to improve model performance  
+- Hyperparameter tuning with cross-validation using Optuna
 
 ## Results
-- RMSE decreased from **X** (baseline) to **Y** (final model)  
-- Final model achieved **winning performance in the hackathon**  
-- Visualizations:
-  - Include a small figure showing predicted vs actual wait times  
-  - Optional: feature importance plot to highlight key predictors  
+- RMSE decreased from **13.4** (baseline) to **6.4** (final model)  
+- Final model achieved **winning performance in the hackathon**
