@@ -8,8 +8,14 @@ This project predicts waiting times in amusement parks over the next 2 hours usi
 - Dataset: Eleven Strategy original datasets of weather data and waiting times (for the training, the validation adn the test) and dataset added by ourselves to better predict waiting times
 - Features: 
   - Eleven Dataset : 
-    - Datetime, Name of the attraction, Capacity, Downtime, Current wait time, Time to events, __Wait time in 2 hours__, Weather conditions : Temperature, Dew point, Felt Temperature, Pressure, Humidity, Wind Speed, Rain, Snow, Clouds 
-  - Our dataset : Holidays, Covid
+    - Time-related features: Datetime, Time to events
+    - Attraction metadata: Attraction Name, Capacity
+    - Operational status: Downtime, Current Wait Time
+    - Weather features: Temperature, Dew Point, Felt Temperature, Pressure, Humidity, Wind Speed, Rain, Snow, Cloud Coverage
+    - Target feature : Wait Time in 2 hours
+  - Our dataset :
+    - Holidays period
+    - Covid Periods
 - Preprocessing: Encoded categorical variables (One Hot Encoding), Added features from our datasets, Added Cyclical time features
 
 ## Approach
