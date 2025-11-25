@@ -24,5 +24,5 @@ This project predicts waiting times in amusement parks over the next 2 hours usi
 - Hyperparameter tuning with cross-validation using Optuna
 
 ## Results
-- RMSE decreased from **13.4** (baseline) to **6.4** (final model)  
+- RMSE decreased from **13.4** (baseline) to **6.9** (final model)  
 - Final model achieved **winning performance in the hackathon**
