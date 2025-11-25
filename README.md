@@ -16,7 +16,7 @@ This project predicts waiting times in amusement parks over the next 2 hours usi
   - Our dataset :
     - Holidays period
     - Covid Periods
-- Preprocessing: Encoded categorical variables (One Hot Encoding), Added features from our datasets, Added Cyclical time features
+- Preprocessing: Encoded categorical variables (One Hot Encoding), Added features from our datasets, Added Cyclical time features (sin/cos transformation on Hour, Day of Week, and Month)
 
 ## Approach
 - Models used: Random Forest, CatBoost, XGBoost  
@@ -24,5 +24,5 @@ This project predicts waiting times in amusement parks over the next 2 hours usi
 - Hyperparameter tuning with cross-validation using Optuna
 
 ## Results
-- RMSE decreased from **13.4** (baseline) to **6.9** (final model)  
+- RMSE decreased from **13.4** (baseline) to **6.9** (final model)
 - Final model achieved **winning performance in the hackathon**
